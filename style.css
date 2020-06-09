@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato';
+    background: black;
 }
 .container {
     display: flex;
     margin: 0 auto;
     width: 70%;
     height: 100vh;
+    background: black;
 }
 .slider-wrapper {
     position: relative;
@@ -54,5 +56,10 @@
     margin: 0 20px;
 }
 .nav > i.active {
-    color: blue;
+    color: grey;
+}
+
+/* EXTRA CSS */
+.red {
+  color:red;
 }
